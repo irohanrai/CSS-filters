@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+}
+img{
+    width: 50%;
+    border-radius: 20px;
+
+    /* filter: grayscale(); */
+    /* filter: brightness(1.5); */
+
+    /* filter: blur(2px); */
+    /* filter: contrast(110%); */
+
+    /* filter: saturate(2); */
+    /* filter: invert(); */
+
+    /* filter: opacity(0.5); */
+
+    filter: blur(3px) grayscale(0.5) contrast(1.2);
+}
